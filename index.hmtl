@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인 폼</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="login-box">
+      <div class="left-box">
+        <h1>로그인</h1>
+        <input type="text" name="username" placeholder="이름" />
+        <input type="text" name="email" placeholder="이메일" />
+        <input type="password" name="password" placeholder="비밀번호" />
+
+        <input
+          type="password"
+          name="comfirmedPassword"
+          placeholder="비말번호(확인용)"
+        />
+
+        <input type="submit" name="login-button" value="로그인" />
+      </div>
+
+      <div class="right-box">
+        <span class="loginwith">다른 계정애서 로그인</span>
+        <button class="sns facebook">FaceBook로그인</button>
+        <button class="sns twitter">Twitter로그인</button>
+        <button class="sns google">Google로그인</button>
+      </div>
+      <!-- <div class="or">または</div> -->
+    </div>
+    　
+  </body>
+</html>
